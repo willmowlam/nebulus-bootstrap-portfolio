@@ -12,7 +12,7 @@
 <body>
   <!-- NavBar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand" href="#">
         <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
         Will Mowlam
@@ -47,20 +47,37 @@
   </nav>
   
   <!-- Hero -->
-  <div class="p-5 mb-4 bg-light rounded-3 hero-banner">
-    <div class="container-fluid py-5">
+  <section class="p-5 mb-4 bg-light rounded-3 hero-banner">
+    <div class="container py-5">
       <h1 class="display-5 fw-bold">Will Mowlam</h1>
       <p class="col-md-8 fs-4">I am a web developer based in Worthing in southern England. I build websites with Drupal, Laravel and Wordpress using frameworks like Bootstrap.</p>
       <a href="#contact" class="btn btn-primary btn-lg" type="button">Contact Me</a>
     </div>
-  </div>
+  </section>
 
   <!-- About -->
-  <div class="container">
-  <h2 id="about">About</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nesciunt sit? Ipsum maiores expedita rem perferendis, aperiam ipsa. Asperiores obcaecati neque sit, animi blanditiis quas adipisci earum reprehenderit? Quasi, inventore!</p>
-</div>
+  <section class="container">
+    <h2 id="about">About</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nesciunt sit? Ipsum maiores expedita rem perferendis, aperiam ipsa. Asperiores obcaecati neque sit, animi blanditiis quas adipisci earum reprehenderit? Quasi, inventore!</p>
+  </section>
 
+  <section id="skills" class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>Skills</h2>
+      </div>
+      <div class="col-sm-8">
+        <div class="row">
+          <div class="col-xs-6 col-sm-4 p-4"><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></div>
+          <div class="col-xs-6 col-sm-4 p-4"><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></div>
+          <div class="col-xs-6 col-sm-4 p-4"><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" /></div>
+          <div class="col-xs-6 col-sm-4 p-4"><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/drupal/drupal-original.svg" /></div>
+          <div class="col-xs-6 col-sm-4 p-4"><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" /></div>
+          <div class="col-xs-6 col-sm-4 p-4"><img class="img-fluid" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" /></div>
+        </div>
+      </div>
+    </div>   
+  </section>
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
