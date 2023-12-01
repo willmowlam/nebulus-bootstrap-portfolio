@@ -16,3 +16,11 @@ nav i {
   font-size:2rem;
 }
 
+.hero-banner {
+  background-image: url("../images/code-944499_1920.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+}
+
