@@ -1,3 +1,18 @@
+
 body{
   font-size: 16px;
 }
+
+.navbar {
+  background-color: #0b3b5e;
+}
+
+nav a:link,
+nav i {
+  color: white !important;
+}
+
+nav i {
+  font-size:2rem;
+}
+
