@@ -24,7 +24,6 @@ nav i {
   background-image: url("../images/code-944499_1920.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
   color: white;
   position: relative; /* contain the overlay */
 }
@@ -36,6 +35,17 @@ nav i {
 .card-image {
   max-height: 200px;
   overflow: hidden;
+}
+
+.card a {
+  display: block;
+}
+
+.card a:link,
+.card-title,
+.card-text {
+  text-decoration: none;
+  color: black;
 }
 
 .hero-banner .btn {
