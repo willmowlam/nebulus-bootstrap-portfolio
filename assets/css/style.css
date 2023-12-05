@@ -16,6 +16,10 @@ nav i {
   text-decoration: none;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 nav i {
   font-size:2rem;
 }
