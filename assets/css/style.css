@@ -71,3 +71,7 @@ nav i {
   pointer-events: none;
   transition: opacity 0.5s;
 }
+
+#skills img {
+  max-width: 75%;
+}
