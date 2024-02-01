@@ -2,7 +2,7 @@
 
 Bootstrap portfolio of my work, deployed at:
 
-https://willmowlam.github.io/bootstrap-portfolio/
+https://willmowlam.github.io/nebulus-bootstrap-portfolio/
 
 ![portfolio demo](./assets/images/screenshot-bootstrap-portfolio.png)
 
