@@ -2,7 +2,7 @@
 
 Bootstrap portfolio of my work, deployed at:
 
-https://will.mowlam.com/
+https://will.mowlam.com
 
 ![portfolio demo](./assets/images/screenshot-bootstrap-portfolio.png)
 
